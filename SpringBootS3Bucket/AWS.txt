@@ -1,0 +1,55 @@
+Terraform
+I learned Installation of Terraform
+Step-1) Go to https://www.terraform.io/ website and download the zip 
+Step-2) Install to the system and set the path to the environmental variable
+Step-3) After installation of terraform we need to download Docker
+Step-4) But docker will use Windows Subsystem for Linux(WSL2) so before that install WSL2
+Step-5) After installation of WSL2 install docker
+
+IAM (Identity Access Management)
+It is used to manage multiple accounts services that which user can access the service and resources.
+Below are the steps to perfom the Identity Access Management
+Step-1) Go to https://aws.amazon.com/console/ and MyAccount-->AWS Management Console and create aws account
+Step-2) Now Again Go to https://aws.amazon.com/console/ and MyAccount-->AWS Management Console and click on signin
+Step-3) Go to My Security Credentials
+Step-4) Then click on user-->Add User
+Step-5) Enter the name for the user and select custom password then click on next
+Step-6) Then click on Create Group and give the name and permission to the user 
+Step-7) Then click on Create User
+Step-8) After that logout from the aws account and just login through that creadential which you created just now.
+
+Loadbalancer
+It distributes the traffic to the multiple EC2 instances
+It increases the availability of the services or application
+
+Cloudfront
+It is  basically used for the caching
+E.g., If the user try to access some services from EC2 instances then it produces high latency
+In cloudfront it stores the logical address to itself and while accessing the same service it will decrease the latency
+Using cloudfront the latency of services will get low
+
+S3 Bucket
+It is basically used to store the files
+It contains all the file which we want to deploy to the cloud
+
+ami 
+It will create the replica of the EC2 instance
+
+snapshot
+It will create the replica of particular hardisk
+
+lambda function
+In this we write own business logic
+
+CIDR block
+It has four groups of up to three decimal digits, 0-255, separated by periods, followed by a slash and a number from 0 to 32. For example, 10.0. 0.0/16
+
+AWS Account
+temp-user5
+Accpassword@123
+testvpc
+mytestbucket2027
+mynewEC2server2027  keypairname: helloworld
+Database name database-2
+----- username: admin          MasterPassword: bhandup123
+ 
